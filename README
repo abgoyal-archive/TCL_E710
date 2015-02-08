@@ -1,0 +1,7 @@
+1. export PATH=~/Your_Toolchain_PATH:$PATH
+  e.g. export PATH=/TCL_E710/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin:$PATH
+
+
+2.kernel make
+  e.g. cd kernel
+       make kernel.img [-j8]
